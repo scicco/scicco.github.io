@@ -24,6 +24,10 @@ url: "https://scicco.github.io" # the base hostname & protocol for your site, e.
 twitter_username: parlacongui
 github_username:  scicco
 repository: scicco/scicco.github.io
+repository_url: https://github.com/scicco/scicco.github.io
+repository_name: scicco.github.io
+owner_url: https://github.com/scicco
+owner_name: scicco
 
 # Build settings
 markdown: kramdown
