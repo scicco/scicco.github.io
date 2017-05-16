@@ -1,0 +1,16 @@
+{% if site.data.comments[page.slug] %}
+{% assign comments = site.data.comments.[page.slug] | sort %}
+<div class="user-comments">
+  {% for comment in comments reversed %}
+    {% assign commentData = comment[1] %}
+    {% assign r = commentData.replying_to %}
+    {% if r == '' %}
+    <h4><i class="fa fa-linux"></i> <em>{{ commentData.name }}</em> said</h4>
+    <h6>{{ commentData.date | date: ' %-d %B %Y @ %r' }}</h6>
+    <h5 class="user-comment" style="margin-top: 18px">{{ commentData.comment }}</h5>
+    <a href="{{ page.url }}#leavecomment"><button class="btn btn-default" type="submit">Reply to {{ commentData.name}}</button></a>
+    <br/>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}

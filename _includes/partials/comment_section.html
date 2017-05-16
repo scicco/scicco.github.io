@@ -1,0 +1,7 @@
+<div class="row comments" id="comments">
+    {% if site.data.comments[page.slug] %}
+    <h3 style="text-align: center"><strong>{{ site.data.comments[page.slug] | size }} Comments</strong></h3>
+    {% endif %}
+    {% include partials/comments.html %}
+    {% include partials/new_comment.html %}
+</div>
