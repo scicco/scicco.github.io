@@ -20,10 +20,10 @@ description: > # this means to ignore newlines until "baseurl:"
   Hello, i'm a software developer. <br/>
   I write about ruby, linux and more
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://scicco.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: parlacongui
 github_username:  scicco
-repository: blog/scicco.github.io
+repository: scicco/scicco.github.io
 
 # Build settings
 markdown: kramdown
