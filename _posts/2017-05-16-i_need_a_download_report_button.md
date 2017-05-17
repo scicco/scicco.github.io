@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Download large files with long running generation time"
+title:  "When the customer says: \"I need a Download Report button\""
 date:   2017-05-16 13:30:00 +0200
 category: [Ruby,Rails]
 tags: [ruby,rails]

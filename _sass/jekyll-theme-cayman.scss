@@ -2,6 +2,7 @@
 @import "rouge-github";
 @import "variables";
 @import "comments";
+@import "header-links";
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
