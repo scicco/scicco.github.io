@@ -314,7 +314,7 @@ class ReportExporterWorker
 
   sidekiq_options backtrace: true, queue: :reports, unique: :until_executed
 
-  def perform(email)
+  def perform(email, password)
     now_formatted = Time.now.strftime('%Y%m%d%H%M')
     report_file_name = "#{now_formatted}_report.csv"
     report_file = File.join(Rails.root, 'tmp', 'reports', report_file_name)
