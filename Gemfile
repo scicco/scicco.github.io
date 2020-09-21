@@ -20,14 +20,17 @@ ruby RUBY_VERSION
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
-   gem "github-pages"
+   gem "jekyll-feed", "~> 0.13"
+   gem "github-pages", "~> 207"
 end
 
-gem "nokogiri", ">= 1.10.4"
+#CVE-2020-7595
+gem "nokogiri", "~> 1.10"
+#CVE-2020-14001
+gem "kramdown", "~> 2.3"
 
-gem "ffi", ">= 1.9.24"
-gem "jekyll", ">= 3.6.3"
+gem "ffi", "~> 1.13"
+gem "jekyll", "~> 3.9"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
