@@ -24,8 +24,8 @@ group :jekyll_plugins do
    gem "github-pages", ">= 207"
 end
 
-#CVE-2020-7595
-gem "nokogiri", "~> 1.10"
+gem "nokogiri", ">= 1.11.0"
+
 #CVE-2020-14001
 gem "kramdown", ">= 2.3.1"
 
