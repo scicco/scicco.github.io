@@ -10,6 +10,6 @@ I write about ruby, linux and more.
 
 You can find me here:
 
-Twitter: {% include icon-twitter.html username="parlacongui" %}
+Twitter: {% include icon-twitter.html username="parlaconguido" %}
 
 Github: {% include icon-github.html username="scicco" %}
