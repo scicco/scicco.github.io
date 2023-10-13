@@ -21,7 +21,7 @@ Sometimes the user needs to schedule a complex report generation and download it
 
 Putting this into a "user story" fashion it will become:
 
-> as logged **User** i want to generate a monthly **report** and **dowload** it.
+> as logged **User** i want to generate a monthly **report** and **download** it.
 
 This simple scenario hides several problems:
 
